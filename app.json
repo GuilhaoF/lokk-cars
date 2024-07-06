@@ -2,14 +2,15 @@
   "expo": {
     "name": "ignitefleet",
     "slug": "ignitefleet",
+    "scheme": "ignitefleet",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "resizeMode": "cover",
+      "backgroundColor": "#202024"
     },
     "ios": {
       "supportsTablet": true
@@ -18,10 +19,19 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.luisfelipeg.ignitefleet"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-font"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "10025eeb-7cb2-49a1-827c-3e6f766abf01"
+      }
     }
   }
 }
